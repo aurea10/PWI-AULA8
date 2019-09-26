@@ -8,6 +8,7 @@ import { PropertyBidingComponent } from './property-biding/property-biding.compo
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { fromsModule, FormsModule} from '@angular/forms';
 import { NgIfComponent } from './ng-if/ng-if.component';
+import { NgSwitchCaseComponent } from './ng-switch-case/ng-switch-case.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgIfComponent } from './ng-if/ng-if.component';
     InterpolationBlindingComponent,
     PropertyBidingComponent,
     TwoWayBindingComponent,
-    NgIfComponent
+    NgIfComponent,
+    NgSwitchCaseComponent
   ],
   imports: [
     BrowserModule,

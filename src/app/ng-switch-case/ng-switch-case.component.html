@@ -1,0 +1,15 @@
+<h2>
+  <div [ng-switch]="num">
+
+    <p *ngSwitchCase="1">Valor é um</p>
+    <p *ngSwitchCase="2">Valor é Dois</p>
+    <p *ngSwitchCase="3">Valor é Três</p>
+    <p *ngSwitchCaseDefault>Mensagem Padão</p>
+
+
+  </div>
+
+  <button (click)="inc()">Incrementar</button>
+
+
+</h2>
