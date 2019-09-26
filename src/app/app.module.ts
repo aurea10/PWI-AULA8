@@ -5,18 +5,27 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InterpolationBlindingComponent } from './interpolation-blinding/interpolation-blinding.component';
 import { PropertyBidingComponent } from './property-biding/property-biding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { fromsModule, FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     InterpolationBlindingComponent,
-    PropertyBidingComponent
+    PropertyBidingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+
+
 })
 export class AppModule { }
